@@ -1,179 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DiamondVision | AI Sports Photo Sorting</title>
-
-    <meta name="description" content="AI-powered workflow for sports photographers. Upload, sort, review and deliver tournament photos faster with DiamondVision.">
-
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DiamondVision | AI Sports Photo Workflow</title>
+  <meta name="description" content="DiamondVision helps sports photographers sort, review, and deliver tournament photos faster with AI." />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-slate-950 text-white">
+<body class="bg-[#070A12] text-white">
 
-<header class="max-w-7xl mx-auto flex items-center justify-between px-6 py-6">
-    <h1 class="text-3xl font-bold">
-        💎 DiamondVision
+<nav class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+  <div class="text-2xl font-black tracking-tight">💎 DiamondVision</div>
+  <div class="hidden md:flex gap-8 text-slate-300">
+    <a href="#features" class="hover:text-white">Features</a>
+    <a href="#workflow" class="hover:text-white">Workflow</a>
+    <a href="#pricing" class="hover:text-white">Pricing</a>
+  </div>
+  <a href="https://app.diamondvisionsite.org" class="bg-white text-slate-950 px-5 py-3 rounded-xl font-bold hover:bg-indigo-100">
+    Launch App
+  </a>
+</nav>
+
+<section class="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-center">
+  <div>
+    <div class="inline-flex items-center gap-2 bg-indigo-500/10 border border-indigo-400/20 text-indigo-300 px-4 py-2 rounded-full font-bold mb-8">
+      Built for high-volume sports photography
+    </div>
+
+    <h1 class="text-5xl md:text-7xl font-black leading-tight mb-8">
+      AI photo sorting for tournament day.
     </h1>
 
-    <a href="https://app.diamondvisionsite.org"
-       class="bg-indigo-600 hover:bg-indigo-500 px-6 py-3 rounded-xl font-semibold">
-        Launch App
-    </a>
-</header>
-
-<section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-16 items-center">
-
-    <div>
-
-        <p class="uppercase tracking-widest text-indigo-400 font-semibold mb-4">
-            AI-Powered Sports Photography
-        </p>
-
-        <h2 class="text-6xl font-black leading-tight mb-8">
-            Sort Tournament Photos<br>
-            in Minutes.
-        </h2>
-
-        <p class="text-xl text-slate-300 mb-10">
-            DiamondVision automatically organizes thousands of tournament
-            photos by team, player and jersey number so you can deliver
-            galleries faster than ever.
-        </p>
-
-        <div class="flex gap-5 flex-wrap">
-
-            <a href="https://app.diamondvisionsite.org"
-               class="bg-indigo-600 hover:bg-indigo-500 px-8 py-4 rounded-xl font-bold">
-                Launch DiamondVision
-            </a>
-
-            <a href="#features"
-               class="border border-slate-600 px-8 py-4 rounded-xl font-bold hover:bg-slate-900">
-                Explore Features
-            </a>
-
-        </div>
-
-    </div>
-
-    <div class="bg-slate-900 rounded-3xl border border-slate-800 p-8 shadow-2xl">
-
-        <h3 class="text-3xl font-bold mb-8">
-            Live Tournament
-        </h3>
-
-        <div class="grid grid-cols-2 gap-5">
-
-            <div class="bg-slate-800 rounded-2xl p-6">
-                <div class="text-slate-400">Processed</div>
-                <div class="text-4xl font-bold mt-2">1,284</div>
-            </div>
-
-            <div class="bg-slate-800 rounded-2xl p-6">
-                <div class="text-slate-400">Needs Review</div>
-                <div class="text-4xl font-bold text-yellow-300 mt-2">7</div>
-            </div>
-
-            <div class="bg-slate-800 rounded-2xl p-6">
-                <div class="text-slate-400">Best Photos</div>
-                <div class="text-4xl font-bold mt-2">214</div>
-            </div>
-
-            <div class="bg-slate-800 rounded-2xl p-6">
-                <div class="text-slate-400">Dropbox</div>
-                <div class="text-4xl font-bold text-green-400 mt-2">
-                    Ready
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="features" class="max-w-7xl mx-auto px-6 py-20">
-
-    <h2 class="text-5xl font-black mb-12">
-        Built for Game Day
-    </h2>
-
-    <div class="grid md:grid-cols-3 gap-8">
-
-        <div class="bg-slate-900 rounded-3xl border border-slate-800 p-8">
-            <div class="text-5xl mb-4">📸</div>
-            <h3 class="text-2xl font-bold mb-4">Live Upload</h3>
-            <p class="text-slate-300">
-                Continue uploading photos throughout the tournament without
-                restarting the workflow.
-            </p>
-        </div>
-
-        <div class="bg-slate-900 rounded-3xl border border-slate-800 p-8">
-            <div class="text-5xl mb-4">🤖</div>
-            <h3 class="text-2xl font-bold mb-4">AI Player Sorting</h3>
-            <p class="text-slate-300">
-                OCR reads jersey numbers and matches players using your roster.
-            </p>
-        </div>
-
-        <div class="bg-slate-900 rounded-3xl border border-slate-800 p-8">
-            <div class="text-5xl mb-4">👥</div>
-            <h3 class="text-2xl font-bold mb-4">Review Assistant</h3>
-            <p class="text-slate-300">
-                Quickly fix uncertain matches with group review tools.
-            </p>
-        </div>
-
-        <div class="bg-slate-900 rounded-3xl border border-slate-800 p-8">
-            <div class="text-5xl mb-4">🏆</div>
-            <h3 class="text-2xl font-bold mb-4">Two-Team Mode</h3>
-            <p class="text-slate-300">
-                Process both teams automatically from one upload.
-            </p>
-        </div>
-
-        <div class="bg-slate-900 rounded-3xl border border-slate-800 p-8">
-            <div class="text-5xl mb-4">☁️</div>
-            <h3 class="text-2xl font-bold mb-4">Parent Gallery Export</h3>
-            <p class="text-slate-300">
-                Create Dropbox-ready galleries for every player.
-            </p>
-        </div>
-
-        <div class="bg-slate-900 rounded-3xl border border-slate-800 p-8">
-            <div class="text-5xl mb-4">💎</div>
-            <h3 class="text-2xl font-bold mb-4">Tournament Dashboard</h3>
-            <p class="text-slate-300">
-                Monitor uploads, review queue and exports from one place.
-            </p>
-        </div>
-
-    </div>
-
-</section>
-
-<section class="py-24 text-center">
-
-    <h2 class="text-5xl font-black mb-6">
-        From Camera Card to Parent Gallery.
-    </h2>
-
-    <p class="text-xl text-slate-300 mb-10">
-        Designed for high-volume youth sports photographers.
+    <p class="text-xl text-slate-300 leading-relaxed mb-10">
+      Upload thousands of game photos, detect jersey numbers, organize players, review uncertain matches, and publish parent-ready galleries faster.
     </p>
 
-    <a href="https://app.diamondvisionsite.org"
-       class="bg-indigo-600 hover:bg-indigo-500 px-10 py-5 rounded-xl text-xl font-bold">
-        Launch DiamondVision
-    </a>
+    <div class="flex flex-wrap gap-4">
+      <a href="https://app.diamondvisionsite.org" class="bg-indigo-500 hover:bg-indigo-400 px-8 py-4 rounded-xl font-black">
+        Open DiamondVision
+      </a>
+      <a href="#workflow" class="border border-slate-700 hover:bg-slate-900 px-8 py-4 rounded-xl font-black">
+        See Workflow
+      </a>
+    </div>
 
+    <div class="grid grid-cols-3 gap-6 mt-12 text-center">
+      <div>
+        <div class="text-3xl font-black">1,284</div>
+        <div class="text-slate-500 text-sm">Photos processed</div>
+      </div>
+      <div>
+        <div class="text-3xl font-black">7</div>
+        <div class="text-slate-500 text-sm">Need review</div>
+      </div>
+      <div>
+        <div class="text-3xl font-black">Ready</div>
+        <div class="text-slate-500 text-sm">Parent export</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="relative">
+    <div class="absolute -inset-6 bg-indigo-500/20 blur-3xl rounded-full"></div>
+    <div class="relative bg-slate-900/90 border border-slate-800 rounded-[2rem] p-6 shadow-2xl">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <p class="text-slate-400 text-sm">Live Dashboard</p>
+          <h2 class="text-2xl font-black">USSSA State Finals</h2>
+        </div>
+        <span class="bg-green-400/10 text-green-300 px-3 py-1 rounded-full text-sm font-bold">Live</span>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-slate-800 rounded-2xl p-5">
+          <p class="text-slate-400">Processed</p>
+          <strong class="text-4xl">1,284</strong>
+        </div>
+        <div class="bg-slate-800 rounded-2xl p-5">
+          <p class="text-slate-400">Review</p>
+          <strong class="text-4xl text-yellow-300">7</strong>
+        </div>
+        <div class="bg-slate-800 rounded-2xl p-5">
+          <p class="text-slate-400">Best</p>
+          <strong class="text-4xl">214</strong>
+        </div>
+        <div class="bg-slate-800 rounded-2xl p-5">
+          <p class="text-slate-400">Dropbox</p>
+          <strong class="text-4xl text-green-300">Ready</strong>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-slate-950 rounded-2xl p-5">
+        <p class="text-slate-400 text-sm mb-2">Suggested action</p>
+        <p class="font-bold">Review 7 uncertain player matches before publishing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features" class="max-w-7xl mx-auto px-6 py-24">
+  <div class="mb-12">
+    <p class="text-indigo-300 font-bold mb-3">Features</p>
+    <h2 class="text-4xl md:text-5xl font-black">Everything needed to deliver faster.</h2>
+  </div>
+
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl p-7">
+      <div class="text-4xl mb-5">📸</div>
+      <h3 class="text-2xl font-black mb-3">Live Upload</h3>
+      <p class="text-slate-400">Add photos throughout the game without creating a new job every inning.</p>
+    </div>
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl p-7">
+      <div class="text-4xl mb-5">🤖</div>
+      <h3 class="text-2xl font-black mb-3">Jersey OCR</h3>
+      <p class="text-slate-400">Detect jersey numbers and match them against your roster automatically.</p>
+    </div>
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl p-7">
+      <div class="text-4xl mb-5">👥</div>
+      <h3 class="text-2xl font-black mb-3">Review Assistant</h3>
+      <p class="text-slate-400">Group uncertain photos and move entire groups with one tap.</p>
+    </div>
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl p-7">
+      <div class="text-4xl mb-5">🏆</div>
+      <h3 class="text-2xl font-black mb-3">Two-Team Mode</h3>
+      <p class="text-slate-400">Separate both teams by roster and team folders from the same upload.</p>
+    </div>
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl p-7">
+      <div class="text-4xl mb-5">☁️</div>
+      <h3 class="text-2xl font-black mb-3">Parent Export</h3>
+      <p class="text-slate-400">Build clean Dropbox-ready galleries for parents and teams.</p>
+    </div>
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl p-7">
+      <div class="text-4xl mb-5">🛡️</div>
+      <h3 class="text-2xl font-black mb-3">Backup Center</h3>
+      <p class="text-slate-400">Create safe backups before updates, directly from Admin.</p>
+    </div>
+  </div>
+</section>
+
+<section id="workflow" class="max-w-7xl mx-auto px-6 py-24">
+  <div class="bg-white text-slate-950 rounded-[2rem] p-8 md:p-12">
+    <p class="text-indigo-600 font-black mb-3">Workflow</p>
+    <h2 class="text-4xl md:text-5xl font-black mb-10">From camera card to parent gallery.</h2>
+
+    <div class="grid md:grid-cols-4 gap-6">
+      <div>
+        <div class="text-3xl mb-3">1</div>
+        <h3 class="font-black text-xl mb-2">Import</h3>
+        <p class="text-slate-600">Upload game photos from phone, card, or live tournament mode.</p>
+      </div>
+      <div>
+        <div class="text-3xl mb-3">2</div>
+        <h3 class="font-black text-xl mb-2">Sort</h3>
+        <p class="text-slate-600">AI reads jerseys and organizes photos into player folders.</p>
+      </div>
+      <div>
+        <div class="text-3xl mb-3">3</div>
+        <h3 class="font-black text-xl mb-2">Review</h3>
+        <p class="text-slate-600">Fix uncertain matches with grouped review tools.</p>
+      </div>
+      <div>
+        <div class="text-3xl mb-3">4</div>
+        <h3 class="font-black text-xl mb-2">Publish</h3>
+        <p class="text-slate-600">Export clean parent galleries and sync to Dropbox.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" class="max-w-5xl mx-auto px-6 py-24 text-center">
+  <p class="text-indigo-300 font-bold mb-3">Early Access</p>
+  <h2 class="text-4xl md:text-5xl font-black mb-6">Built first for real tournament workflow.</h2>
+  <p class="text-xl text-slate-300 mb-10">
+    DiamondVision is currently in active development for high-volume sports photography workflows.
+  </p>
+  <a href="https://app.diamondvisionsite.org" class="bg-white text-slate-950 px-10 py-5 rounded-xl font-black inline-block">
+    Launch App
+  </a>
 </section>
 
 <footer class="border-t border-slate-800 py-10 text-center text-slate-500">
-    © 2026 DiamondVision • AI Sports Photography Workflow
+  © 2026 DiamondVision. AI sports photography workflow.
 </footer>
 
 </body>
